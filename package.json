@@ -1,0 +1,26 @@
+{
+  "name": "digitex-vesting",
+  "version": "0.1.0",
+  "description": "Vesting contract for Digitex team tokens",
+  "keywords": [
+    "vesting",
+    "DGTX"
+  ],
+  "author": "SmartDec",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "truffle": "truffle",
+    "coverage": "scripts/coverage.sh",
+    "test": "scripts/test.sh"
+  },
+  "dependencies": {
+    "truffle": "4.0.6",
+    "zeppelin-solidity": "1.6.0"
+  },
+  "devDependencies": {
+    "@digix/doxity": "^0.5.2",
+    "ganache-cli": "^6.0.3",
+    "solidity-coverage": "0.3.5"
+  }
+}
